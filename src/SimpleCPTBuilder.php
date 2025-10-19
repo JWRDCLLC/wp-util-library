@@ -9,7 +9,8 @@ class SimpleCPTBuilder
     public static function build(
         string $single_label,
         string $plural_label,
-        array $supported_features = ['title', 'editor', 'thumbnail', 'excerpt', 'custom-fields'],
+        array $supported_features = [ 'title', 'editor', 'thumbnail', 'excerpt',
+            'custom-fields', 'author'],
     ): \WP_Error|\WP_Post_Type {
         $labels = [
             'name'                  => $plural_label,
