@@ -1,0 +1,40 @@
+{
+	"name": "jwrdcllc/wp-util-library",
+	"description": "A WordPress utility library with logging and custom post type builder functionality",
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Josh Robbs/JWRDCLLC",
+			"email": "josh@joshrobbs.com"
+		}
+	],
+	"minimum-stability": "stable",
+	"prefer-stable": true,
+	"require": {
+		"php": ">=7.4"
+	},
+	"autoload": {
+		"psr-4": {
+			"JwrdcLLC\\WpUtilLibrary\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"JwrdcLLC\\WpUtilLibrary\\Tests\\": "tests/"
+		}
+	},
+	"keywords": [
+		"wordpress",
+		"utility",
+		"library",
+		"logging",
+		"cpt",
+		"custom-post-type"
+	],
+	"homepage": "https://github.com/JWRDCLLC/wp-util-library",
+	"support": {
+		"issues": "https://github.com/JWRDCLLC/wp-util-library/issues",
+		"source": "https://github.com/JWRDCLLC/wp-util-library"
+	}
+}
